@@ -1,0 +1,43 @@
+.header {
+  &__up {
+    display: flex;
+    background: #F1F2F4;
+    padding: 10px 58px ;
+    color: #737A8E;
+  }
+
+  &__up-region {
+    display: flex;
+    margin-right: 75px;
+  }
+
+  &__up-region-svg {
+    margin-right: 4.5px;
+  }
+
+  &__up-region-text {
+    white-space: nowrap;
+  }
+
+  &__up-item:nth-child(2) {
+    width: 100%;
+
+  }
+  &__up-item {
+    display: flex;
+    list-style: none;
+  }
+  
+  &__up-link {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    margin-right: 18px;
+  }
+
+  &__up-link-img{
+    margin-right: 5px;
+  }
+}

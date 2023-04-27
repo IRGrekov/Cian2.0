@@ -1,0 +1,37 @@
+.header {
+  &__bottom{
+    display: flex;
+    padding: 10px 58px ;
+  }
+  &__bottom-logo {
+    margin-right: 72px;
+  }
+
+  &__bottom-item:nth-child(2) {
+    width: 100%;
+  }
+  &__bottom-item {
+    display: flex;
+  }
+
+  &__bottom-link {
+    display: flex;
+    padding-top: 12px;
+    margin-right: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+  &__bottom-link-img{
+    margin-right: 4px;
+  }
+
+  &__bottom-btn {
+    background: #0468FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px 12px;
+    white-space: nowrap;
+  }
+}

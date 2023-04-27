@@ -1,0 +1,34 @@
+.header__up {
+  display: flex;
+  background: #F1F2F4;
+  padding: 10px 58px;
+  color: #737A8E;
+}
+.header__up-region {
+  display: flex;
+  margin-right: 75px;
+}
+.header__up-region-svg {
+  margin-right: 4.5px;
+}
+.header__up-region-text {
+  white-space: nowrap;
+}
+.header__up-item:nth-child(2) {
+  width: 100%;
+}
+.header__up-item {
+  display: flex;
+  list-style: none;
+}
+.header__up-link {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  margin-right: 18px;
+}
+.header__up-link-img {
+  margin-right: 5px;
+}
