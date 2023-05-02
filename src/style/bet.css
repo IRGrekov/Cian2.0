@@ -1,0 +1,122 @@
+.bet {
+  display: flex;
+  margin-left: 170px;
+  align-content: center;
+  padding-bottom: 20px;
+}
+.bet__boundered {
+  max-width: 1100px;
+  width: 100%;
+  border-radius: 8px;
+}
+.bet__wrapper {
+  padding: 28px 40px 36px 28px;
+  color: white;
+  width: calc(50% - 28px);
+}
+.bet__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.bet__subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+.bet__input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 10px;
+  color: white;
+  width: 293px;
+  height: 40px;
+  margin-block: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+}
+.bet__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.bet__link {
+  width: 50%;
+}
+.bet__link-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 16px;
+  margin-bottom: 4px;
+}
+.bet__link-text {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+}
+.bet__text {
+  margin-bottom: 124px;
+}
+.bet__btn {
+  display: flex;
+  max-width: 216px;
+  color: #0468ff;
+  background: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 12px 24px;
+  white-space: nowrap;
+}
+.bet__input-type {
+  min-width: 270px;
+  background: transparent;
+  border: none;
+  color: white;
+}
+.bet__text-el:first-child {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 4px;
+}
+.bet__text-el:last-child {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.bet__button {
+  min-width: 293px;
+  padding: 8px 16px;
+  padding-right: 42px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  background: transparent;
+  color: white;
+  background-image: url(../assets/more.svg);
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+}
+
+.bet__options{
+  position: absolute;
+  background-color: white;
+  min-width: 293px;
+  color: black;
+ 
+}
+
+.bet__option:hover{
+  background-color: gray;
+  padding-left: 10px;
+}

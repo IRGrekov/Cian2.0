@@ -1,0 +1,117 @@
+.bet {
+  display: flex;
+  margin-left: 170px;
+  align-content: center;
+  padding-bottom: 20px;
+  &__boundered {
+    max-width: 1100px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  &__wrapper {
+    padding: 28px 40px 36px 28px;
+    color: white;
+    width: calc(50% - 28px);
+  }
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 16px;
+  }
+
+  &__subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 8px;
+  }
+
+  &__input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 10px;
+    color: white;
+    width: 293px;
+    height: 40px;
+    margin-block: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+
+  &__link {
+    width: 50%;
+  }
+
+  &__link-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 16px;
+    margin-bottom: 4px;
+  }
+
+  &__link-text {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  &__text {
+    margin-bottom: 124px;
+  }
+
+  &__btn {
+    display: flex;
+    max-width: 216px;
+    color: #0468ff;
+    background: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    padding: 12px 24px;
+    white-space: nowrap;
+  }
+  &__input-type {
+    min-width: 270px;
+    background: transparent;
+    border: none;
+    color: white;
+  }
+  &__text-el:first-child {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 4px;
+  }
+  &__text-el:last-child {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  &__button {
+    min-width: 293px;
+    padding: 8px 16px;
+    padding-right: 42px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    background: transparent;
+    color: white;
+    background-image: url(../assets/more.svg);
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    margin-bottom: 16px;
+  }
+}

@@ -8,7 +8,7 @@ export default function AllBets({ percentInfo, radioBtn, setRadioBtn }) {
 
   return (
     <div className='bets'>
-
+         <h2 className='info__subtitle'>Льготные ипотечные программы</h2>
       {percentInfo.map(el => {
         // ...
         console.log((radioBtn === el)
